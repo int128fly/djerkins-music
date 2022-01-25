@@ -1,2 +1,5 @@
 config/permissions.ini
 config/options.ini
+config/autoplaylist.txt
+config/blacklist.txt
+config/whitelist.txt

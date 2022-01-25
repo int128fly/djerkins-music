@@ -31,8 +31,5 @@ RUN python -m pip install --upgrade -r requirements.txt
 
 RUN chmod +x run.sh
 
-COPY options.ini config/options.ini
-COPY permissions.ini config/permissions.ini
-
 CMD ["bash", "run.sh"]
 #ENTRYPOINT ["tail", "-f", "/dev/null"]
